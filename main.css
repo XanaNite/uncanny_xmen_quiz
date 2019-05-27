@@ -37,8 +37,6 @@ h1 {
 .quizCounter {
     width: 350px;
     height: 50px;
-    margin: 0px;
-    padding: 0px;
     background-color: rgba(192, 192, 192, .7);
     display: flex;
     justify-content: space-around;
@@ -84,8 +82,100 @@ input[type=submit] {
 
 footer {
     width: 100%;
+    position: fixed;
+    bottom: 0;
     color: white;
     font-size: 10px;
     padding-top: 10px;
     text-shadow: 1px 1px 2px black;
+}
+
+@media only screen and (min-width: 600px) and (min-height: 960px) {
+    header img {
+        width: 300px;
+        margin-top: 50px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    .quizCounter {
+        width: 550px;
+        height: 75px;
+    }
+    .questionsResults {
+        width: 550px;
+        height: 550px;
+    }
+
+    .counter {
+        font-size: 22px;
+    }
+
+    form {
+        width: 545px;
+        height: 545px;
+    }
+
+    .question {
+        height: 145px;
+        font-size: 32px;
+    }
+
+    .multiChoice {
+        height: 325px;
+    }
+    
+    .multiChoice img {
+        width: 535px;
+        height: 300px;
+    }
+
+    input[type=submit] {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width: 1020px) and (min-height: 1250px) {
+    header img {
+        width: 400px;
+        margin-top: 50px;
+    }
+    h1 {
+        font-size: 75px;
+    }
+    .quizCounter {
+        width: 700px;
+        height: 100px;
+    }
+    .questionsResults {
+        width: 700px;
+        height: 700px;
+    }
+
+    .counter {
+        font-size: 30px;
+    }
+
+    form {
+        width: 695px;
+        height: 695px;
+    }
+
+    .question {
+        height: 200px;
+        font-size: 32px;
+    }
+
+    .multiChoice {
+        height: 400px;
+    }
+    
+    .multiChoice img {
+        width: 685px;
+        height: 385px;
+    }
+
+    input[type=submit] {
+        font-size: 30px;
+    }
 }
