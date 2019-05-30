@@ -69,9 +69,19 @@ form {
     height: 200px;
 }
 
+input[type=radio], label {
+    display: table-cell;
+    vertical-align: baseline;
+    padding-left: 75px;
+}
+
 .multiChoice img {
     width: 335px;
     height: 190px;
+}
+
+form span {
+    font-size: 22px;
 }
 
 input[type=submit] {
@@ -130,6 +140,19 @@ footer {
         height: 300px;
     }
 
+    input[type=radio], label {
+        padding-left: 100px;
+    }
+
+    input[type=radio] {
+        width: 20px;
+        height: 20px;
+    }
+
+    form span {
+        font-size: 35px;
+    }
+
     input[type=submit] {
         font-size: 22px;
     }
@@ -163,7 +186,7 @@ footer {
 
     .question {
         height: 200px;
-        font-size: 32px;
+        font-size: 40px;
     }
 
     .multiChoice {
@@ -173,6 +196,19 @@ footer {
     .multiChoice img {
         width: 685px;
         height: 385px;
+    }
+
+    input[type=radio], label {
+        padding-left: 125px;
+    }
+
+    input[type=radio] {
+        width: 20px;
+        height: 20px;
+    }
+
+    form span {
+        font-size: 45px;
     }
 
     input[type=submit] {
