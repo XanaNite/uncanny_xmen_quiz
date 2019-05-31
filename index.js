@@ -135,9 +135,9 @@ function generateScorePage(){
             <p>Looks like you need to spend more time in the Danger Room. Better luck next time.</p>
         </div>
         <div class="multiChoice home">
-            <img src="https://orig00.deviantart.net/2f59/f/2018/245/7/7/the_uncanny__xmen_by_blackrocklegacies-dclswco.jpg" alt="X-Men Logo">
+            <img src="http://24.media.tumblr.com/tumblr_ltxqhnSrwC1qg4s5uo1_500.gif" alt="X-Men Logo">
         </div>
-        <input type="submit" class ="js-startQuiz" value="Enter the Danger Room">
+        <input type="submit" class ="js-startQuiz" value="Restart">
         </form>`;
     }else {
         return `<form>
@@ -147,7 +147,7 @@ function generateScorePage(){
         <div class="multiChoice home">
             <img src="https://media1.tenor.com/images/8e38795838c0f6d79e3bff5553624207/tenor.gif?itemid=7797140" alt="Rogue image">
         </div>
-        <input type="submit" class ="js-startQuiz" value="Enter the Danger Room">
+        <input type="submit" class ="js-startQuiz" value="Restart">
         </form>`;
     }
 }
@@ -170,18 +170,10 @@ function handleNext(){
     });
 }
 
-function handleRestartQuiz(){
-    $('form').submit(function(event){
-        event.preventDefault();
-        console.log("User restarted the quiz");
-    });
-}
-
 function handleSubmits(){
     handleStartQuiz();
     handleSubmitAnswer();
     handleNext();
-    handleRestartQuiz();
 }
 
 handleSubmits();

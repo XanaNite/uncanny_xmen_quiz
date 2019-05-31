@@ -56,7 +56,7 @@ const questionData = [
         correctAnswer: "Juggernaut"
     },
     {
-        question: "what is Beast's real name?",
+        question: "What is Beast's real name?",
         A: "Henry 'Hank' McCoy",
         B: "Kurt Wagner",
         C: "Erik 'Joseph' Lehnsherr",

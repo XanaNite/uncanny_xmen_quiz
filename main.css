@@ -61,7 +61,7 @@ form {
 
 .question {
     height: 95px;
-    font-size: 22px;
+    font-size: 18px;
     text-shadow: 1px 1px 2px black;
 }
 
@@ -97,7 +97,7 @@ footer {
     color: white;
     font-size: 10px;
     padding-top: 10px;
-    text-shadow: 1px 1px 2px black;
+    background: linear-gradient(to top, black, 85%, transparent);
 }
 
 @media only screen and (min-width: 600px) and (min-height: 960px) {
@@ -128,7 +128,7 @@ footer {
 
     .question {
         height: 145px;
-        font-size: 32px;
+        font-size: 28px;
     }
 
     .multiChoice {
@@ -160,7 +160,7 @@ footer {
 
 @media only screen and (min-width: 1020px) and (min-height: 1250px) {
     header img {
-        width: 400px;
+        width: 425px;
         margin-top: 50px;
     }
     h1 {
@@ -186,7 +186,7 @@ footer {
 
     .question {
         height: 200px;
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .multiChoice {
