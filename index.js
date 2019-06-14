@@ -176,4 +176,4 @@ function handleSubmits(){
     handleNext();
 }
 
-handleSubmits();
+$(handleSubmits);
