@@ -72,7 +72,7 @@ form {
 input[type=radio], label {
     display: table-cell;
     vertical-align: baseline;
-    padding-left: 75px;
+    padding-left: 50px;
 }
 
 .multiChoice img {
