@@ -34,17 +34,21 @@ h1 {
     text-shadow: 1px 1px 2px black;
 }
 
+p {
+    margin: 0 auto;
+}
+
 .quizCounter {
-    width: 350px;
-    height: 50px;
+    width: 310px;
+    height: 45px;
     background-color: rgba(192, 192, 192, .7);
     display: flex;
     justify-content: space-around;
 }
 
 .questionsResults {
-    width: 350px;
-    height: 350px;
+    width: 310px;
+    height: 310px;
     background-color: rgba(192, 192, 192, .7);
 }
 
@@ -53,8 +57,8 @@ h1 {
 }
 
 form {
-    width: 345px;
-    height: 345px;
+    width: 305px;
+    height: 305px;
     margin: 5px;
     display: inline-block;
 }
@@ -66,7 +70,7 @@ form {
 }
 
 .multiChoice {
-    height: 200px;
+    height: 160px;
 }
 
 input[type=radio], label {
@@ -76,8 +80,8 @@ input[type=radio], label {
 }
 
 .multiChoice img {
-    width: 335px;
-    height: 190px;
+    width: 295px;
+    height: 155px;
 }
 
 form span {
